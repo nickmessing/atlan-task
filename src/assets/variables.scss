@@ -1,0 +1,32 @@
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css');
+
+:root {
+  // Colors scheme
+  --color-dark-black-background-black-100: hsl(240, 15%, 10%);
+  --color-dark-white-white-100: hsl(0, 0%, 100%);
+  --color-dark-gray-gray-100: hsl(240, 14%, 13%);
+  --color-dark-gray-gray-80: hsl(240, 5%, 30%, 1);
+  --color-dark-gray-gray-60: hsl(240, 2%, 48%);
+  --color-dark-eigengrau-eigengrau-100: hsl(240, 13%, 18%);
+  --color-dark-purple-purple-100: hsl(250, 100%, 69%);
+  --color-dark-red-red-100: hsl(0, 77%, 64%);
+
+  // Colors
+  --color-background: var(--color-dark-black-background-black-100);
+  --color-text: var(--color-dark-white-white-100);
+  --color-primary: var(--color-dark-purple-purple-100);
+
+  // Text
+  --font-primary: 'Plus Jakarta Display', sans-serif;
+
+  --font-size: 16px;
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-h3: 18px;
+  --font-size-h4: 16px;
+  --font-size-h5: 14px;
+  --font-size-h6: 12px;
+  --font-size-p: 14px;
+  --font-size-sm: 10px;
+  --font-size-xs: 8px;
+}
